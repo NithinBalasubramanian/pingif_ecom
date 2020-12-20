@@ -1,0 +1,15 @@
+.plan{
+    height: auto;
+    width: 100%;
+    background-color: rgb(213, 219, 219);
+    text-align: center;
+    padding-top: 15px;
+    margin: 10px 10px;
+}
+.ul {
+    list-style: none;
+  }
+.ul li:before {
+    content: '✓';
+    color:mediumvioletred;
+  }

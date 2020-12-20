@@ -1,0 +1,159 @@
+.log{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+.mid-one{
+    display: grid;
+    align-items: center;
+}
+.regbox{
+    max-width: 440px;
+    margin: 0 auto;
+}
+.dark{
+    font-weight: 500;
+    margin: 10px 0;
+    text-align: center;
+    font-family: 'Recursive', sans-serif;
+}
+.light{
+    font-weight: 400;
+    margin: 10px 0;
+    color: #7e859b;
+    text-align: center;
+    line-height:30px;
+}
+.para{
+    margin: 10px 0;
+    color: #7e859b;
+    text-align: center;
+    line-height: 23px;
+}
+.registerBox .ripple{
+    margin: 15px 0 4px;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 15px 40px;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.registerBox .transparent{
+    box-shadow: 0 0 0 1px #e2e5f1 inset;
+    color: #404553;
+    box-sizing: border-box;
+    width: 100% !important;
+}
+.butt{
+    height: 55px;
+    padding-top: 15px;
+    background-color:#2AC37D;
+    outline:none;
+}
+.start{
+    text-decoration:none;
+    font-size:13px;
+    font-size:16px;
+    margin-top:20px;
+    color:black;
+    font-weight:bold;
+}
+.start:hover{
+    text-decoration:none;
+}
+.sign{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.loginbox{
+    max-width: 440px;
+    margin: 0 auto;
+}
+.email{
+    font-size:16px;
+}
+.forgot{
+    font-size:11px;
+    text-align: right;
+    line-height: 1.5;
+    color: rgb(56, 102, 223);
+    margin: 10px 0px;
+}
+.sig{
+    width: 100%;
+    height: 50px;
+}
+.signin{
+    font-size: 18px;
+    font-weight: bold;
+}
+.signin:hover{
+    color:#fff;
+}
+.box{
+    height: auto;
+    padding: 40px;
+    border: 1px solid rgba(0,0,0,.125);
+    background-color: #fff; 
+     background-clip: border-box;
+     border-radius: 10px;
+     box-shadow: 2px 2px 2px;
+}
+.s{
+    font-size:25px;
+}
+.fo:hover{
+    text-decoration:none;
+    cursor:pointer;
+}
+.start:hover{
+    color:#fff;
+}
+.my_nav{
+    width:100%;
+    height:100px;
+    background-color:#2AC37D;
+}
+.disp_1{
+    display:none;
+}
+.disp_2{
+    display:block;
+}
+.sub_images{
+    width:60px;
+    height:60px;
+}
+@media screen and (max-width:700px)
+{
+    .log{
+        display:unset;
+    }
+    .box{
+        box-shadow:unset;
+    }
+    .registerInfoCtr{
+        padding-top:20px;
+    }
+    .my_nav{
+        display:none;
+    }
+    .disp_1{
+        display:block;
+    }
+    .disp_2{
+        display:none;
+    }
+    .logo_bottom{
+        font-size:10px;
+    }
+}
